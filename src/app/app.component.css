@@ -1,0 +1,30 @@
+html, body {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  height: 100%;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+.active {
+  background-color: yellow;
+}
+.field {
+  max-width: 50vw;
+  max-height: 50vh;
+  margin: 0 auto;
+}
+.win-user {
+  background-color: green;
+}
+.win-computer {
+  background-color: red;
+}
+mat-form-field {
+  width: 15%;
+  margin-right: 20px;
+}
